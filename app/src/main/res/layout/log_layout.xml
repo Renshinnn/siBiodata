@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#f2f2f2">
+
+    <ImageView
+        android:id="@+id/logo_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/logo_awal"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/logo_start"
+        android:layout_alignTop="@+id/logo_start"
+        android:layout_alignRight="@+id/logo_start"
+        android:layout_alignBottom="@+id/logo_start"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-94dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="96dp"
+        android:scaleX="20"
+        android:scaleY="20"
+        android:text="myBio" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_start"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="-41dp"
+        android:layout_marginBottom="100dp"
+        android:text="next"
+        android:onClick="pindah"/>
+
+
+</RelativeLayout>
